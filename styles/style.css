@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(41, 46, 73);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 80px;
+}
+
+header a {
+  text-decoration: none;
+  color: #ececf0;
+  margin: 0px 15px;
+}
+.login-btn {
+  background-color: transparent;
+  color: #ececf0;
+  margin-right: 12px;
+}
+.signup-btn {
+  color: #fff;
+  background-color: #2a0643;
+  border-radius: 4px;
+}
+link :hover {
+  color: red;
+}
+link:visited {
+  color: greenyellow;
+}
+.login-btn:hover {
+  color: black;
+  background-color: #fff;
+}
+.signup-btn:hover {
+  color: black;
+  background-color: #fff;
+}
